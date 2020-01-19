@@ -8,7 +8,8 @@
     "start": "node app.js",
     "server": "nodemon api/app.js",
     "client": "cd client && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client\" \"node server.js\""
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"node server.js\"",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Friday Toury",
   "license": "MIT",
