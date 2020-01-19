@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e7073f7.chunk.css",
+    "main.js": "/static/js/main.da07ed02.chunk.js",
+    "main.js.map": "/static/js/main.da07ed02.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.30cba478.js",
+    "runtime-main.js.map": "/static/js/runtime-main.30cba478.js.map",
+    "static/css/2.78a89689.chunk.css": "/static/css/2.78a89689.chunk.css",
+    "static/js/2.730d09d0.chunk.js": "/static/js/2.730d09d0.chunk.js",
+    "static/js/2.730d09d0.chunk.js.map": "/static/js/2.730d09d0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dd8096b519da12f9f42809cfbcfe3fa0.js": "/precache-manifest.dd8096b519da12f9f42809cfbcfe3fa0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.78a89689.chunk.css.map": "/static/css/2.78a89689.chunk.css.map",
+    "static/css/main.5e7073f7.chunk.css.map": "/static/css/main.5e7073f7.chunk.css.map",
+    "static/js/2.730d09d0.chunk.js.LICENSE": "/static/js/2.730d09d0.chunk.js.LICENSE",
+    "static/media/earth-globe.svg": "/static/media/earth-globe.c3c5ba1c.svg",
+    "static/media/map.svg": "/static/media/map.8fcf524a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30cba478.js",
+    "static/css/2.78a89689.chunk.css",
+    "static/js/2.730d09d0.chunk.js",
+    "static/css/main.5e7073f7.chunk.css",
+    "static/js/main.da07ed02.chunk.js"
+  ]
+}
