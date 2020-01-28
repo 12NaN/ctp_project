@@ -14,12 +14,7 @@ const chatkit = new Chatkit.default({
 
 
 const path = require('path');
-app.use(express.static(path.join(__dirname, 'client/build')));
 
-
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname+'/client/build/index.html'));
-});
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -56,4 +51,11 @@ app.post('/authenticate', (req, res) => {
 app.set('port', process.env.PORT || 5200);
 const server = app.listen(app.get('port'), () => {
     console.log(`Express running → PORT ${server.address().port}`);
+});
+
+app.use(express.static(path.join(__dirname, 'build')));
+
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
